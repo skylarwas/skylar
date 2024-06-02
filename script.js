@@ -16,9 +16,9 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>
 */
 
-console.log("Welcome to Saviru's portfolio !")
+console.log("Skylar gets a lag spike")
 
-title = "Hi there, I'm Saviru Kashmira Atapattu. Welcome to my portfolio !           ";
+title = "Yo im skylar and welcome to my website !           ";
 position = 0;
 function scrolltitle() {
     document.title = title.substring(position, title.length) + title.substring(0, position); 
@@ -237,10 +237,10 @@ function sendMessage() {
 
   emailjs.send(serviceID, templateID, params)
   .then( res => {
-    toastNotify("Done !", "Your message has been sent.", "bx-message-square-check", "#0060af");
+    toastNotify("Done !", "Message is now sent!.", "bx-message-square-check", "#0060af");
   })
   .catch( jserr => {
-    toastNotify("Error !", "An error occured. Please try again.", "bx-message-square-error", "#af0000")
+    toastNotify("Error !", "uh error i think.", "bx-message-square-error", "#af0000")
   });
 }
 
